@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nilambika Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Nilambika</h1>
+  <p>Frontend Developer</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="fade-in">
+  <h2>About Me</h2>
+  <p>I am a passionate frontend developer skilled in HTML, CSS, JavaScript, and WordPress. I enjoy creating responsive and user-friendly websites.</p>
+</section>
+
+<section id="projects" class="fade-in">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Calculator</h3>
+    <p>Built using HTML, CSS, and JavaScript with interactive UI.</p>
+  </div>
+
+  <div class="card">
+    <h3>Chatbot</h3>
+    <p>Developed an LLM-based chatbot for user interaction.</p>
+  </div>
+
+</section>
+
+<section id="contact" class="fade-in">
+  <h2>Contact Me</h2>
+  <form onsubmit="return submitForm()">
+    <input type="text" id="name" placeholder="Your Name" required><br>
+    <input type="email" id="email" placeholder="Your Email" required><br>
+    <textarea id="message" placeholder="Message" required></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+  <p id="successMsg"></p>
+</section>
+
+<footer>
+  <p>© 2026 Nilambika | Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
